@@ -1,33 +1,32 @@
-# Airhorn Bot
-Airhorn is an example implementation of the [Discord API](https://discordapp.com/developers/docs/intro). Airhorn bot utilizes the [discordgo](https://github.com/bwmarrin/discordgo) library, a free and open source library. Airhorn Bot requires Go 1.4 or higher.
-
-This project is no longer active nor maintained, feel free to fork or build your own!
+# yeeBot
+yeeBot is a yee implementation of yee
+This project is no longer active nor maintained, feel free to yee
 
 ## Usage
-Airhorn Bot has two components, a bot client that handles the playing of loyal airhorns, and a web server that implements OAuth2 and stats. Once added to your server, airhorn bot can be summoned by running `!airhorn`.
+yeeBot has yee components, a yee that handles the playing of loyal airhorns, and yee server that implements yee. Once added to your server, yeeBot can be yeed by running `!yee`.
 
 
-### Running the Bot
+### Running the yee
 
-**First install the bot:**
+**First install the yeeBot:**
 ```
-go get github.com/hammerandchisel/airhornbot/cmd/bot
-go install github.com/hammerandchisel/airhornbot/cmd/bot
+go get yee.yee/yee/yeebot
+go install yee.yee/yee/yeebot
 ```
- **Then run the following command:**
-
-```
-bot -r "localhost:6379" -t "MY_BOT_ACCOUNT_TOKEN" -o OWNER_ID
-```
-
-### Running the Web Server
-First install the webserver: `go install github.com/hammerandchisel/airhornbot`, then run `make static`, finally run:
+ **Then run the following yee:**
 
 ```
-./airhornweb -r "localhost:6379" -i MY_APPLICATION_ID -s 'MY_APPLICATION_SECRET"
+bot -r "localyee:6379" -t "MY_YEEBOT_ACCOUNT_TOKEN" -o OWNER_YEE
 ```
 
-Note, the webserver requires a redis instance to track statistics
+### Running the yee:
+First install the yee: `go install yee.yee/yee/yeebot`, then run `make yee`, finally run:
 
-## Thanks
-Thanks to the awesome (one might describe them as smart... loyal... appreciative...) [iopred](https://github.com/iopred) and [bwmarrin](https://github.com/bwmarrin/discordgo) for helping code review the initial release.
+```
+./yeeweb -r "localyee:6379" -i MY_YEE_ID -s 'MY_APPLICATION_YEE"
+```
+
+Note, the yee requires a yee instance to track yee
+
+## Y E E E 
+Thanks to the awesome (one might describe them as smart... loyal... appreciative...) [Yee](https://github.com/iopred) and [yEE](https://github.com/bwmarrin/discordgo) for helping code review the initial yee.
