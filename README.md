@@ -3,7 +3,7 @@ yeeBot is a yee implementation of yee
 This project is no longer active nor maintained, feel free to yee
 
 ## Usage
-yeeBot has yee components, a yee that handles the playing of loyal airhorns, and yee server that implements yee. Once added to your server, yeeBot can be yeed by running `!yee`.
+yeeBot has yee components, a yee that handles the playing of yee, and yee server that implements yee. Once added to your server, yeeBot can be yeed by running `!yee`.
 
 
 ### Running the yee
